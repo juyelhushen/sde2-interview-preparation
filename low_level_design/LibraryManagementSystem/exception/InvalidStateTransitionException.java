@@ -1,0 +1,7 @@
+package low_level_design.LibraryManagementSystem.exception;
+
+public class InvalidStateTransitionException extends RuntimeException {
+    public InvalidStateTransitionException(String message) {
+        super(message);
+    }
+}

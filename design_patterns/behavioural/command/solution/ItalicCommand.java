@@ -1,6 +1,7 @@
 package design_patterns.behavioural.command.solution;
 
 public class ItalicCommand implements Command{
+
     private final TextEditor editor;
 
     public ItalicCommand(TextEditor editor) {
