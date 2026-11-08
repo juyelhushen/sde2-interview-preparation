@@ -1,6 +1,7 @@
 package design_patterns.behavioural.command.solution;
 
 public class TextEditor {
+
     public void boldText() {
         System.out.println("Text is in Bold");
     }
